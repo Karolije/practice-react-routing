@@ -3,11 +3,13 @@ import { Link, Redirect, useParams } from "react-router-dom";
 import products from "../products.json";
 const Product = (props) => {
   if (props.id !== undefined) {
-    const { id, name, description, alias } = props;
+    const { id, name, description, price, category } = props;
     return (
       <article data-id={id}>
-        <Link to={`/task03/${alias}-${id}`}>
-          <h3>{name}</h3>
+        <Link to={`/task03/${category}-${id}`}>
+          <h3>
+            {name} {price}zł.
+          </h3>
           <p>{description}</p>
         </Link>
       </article>
