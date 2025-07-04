@@ -1,6 +1,6 @@
 [
-    {"id": 1, "name": "JavaScript: DOM", "description": "Mauris scelerisque mauris ac mauris ultricies blandit.", "category": "JavaScript", "price": 39},
-    {"id": 2, "name": "JavaScript: Events", "description": "Duis mattis lectus ac mauris ullamcorper finibus.", "category": "JavaScript", "price": 49},
-    {"id": 3, "name": "React: Components", "description": "Integer vitae est ut urna consequat malesuada. ", "category": "React", "price": 69},
-    {"id": 4, "name": "React: Composition", "description": "Ut lacinia ultrices ligula, vitae euismod urna luctus vel.", "category": "React", "price": 79}
+    {"id": 1, "name": "JavaScript: DOM", "alias": "js-dom", "description": "Mauris scelerisque mauris ac mauris ultricies blandit.", "category": "JavaScript", "price": 39},
+    {"id": 2, "name": "JavaScript: Events", "alias": "js-events", "description": "Duis mattis lectus ac mauris ullamcorper finibus.", "category": "JavaScript", "price": 49},
+    {"id": 3, "name": "React: Components", "alias": "react-components", "description": "Integer vitae est ut urna consequat malesuada. ", "category": "React", "price": 69},
+    {"id": 4, "name": "React: Composition", "alias": "react-composition", "description": "Ut lacinia ultrices ligula, vitae euismod urna luctus vel.", "category": "React", "price": 79}
 ]

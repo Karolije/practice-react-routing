@@ -1,7 +1,18 @@
 import React from "react";
-import { Redirect, useParams } from "react-router-dom";
+import { Link, Redirect, useParams } from "react-router-dom";
 import products from "../products.json";
-const Product = () => {
+const Product = (props) => {
+  if (props.id !== undefined) {
+    const { id, name, description, alias } = props;
+    return (
+      <article data-id={id}>
+        <Link to={`/task03/${alias}-${id}`}>
+          <h3>{name}</h3>
+          <p>{description}</p>
+        </Link>
+      </article>
+    );
+  }
   const { idNumber, alias } = useParams();
   const product = products.find((product) => product.id === parseInt(idNumber));
 
